@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    /* background: linear-gradient(to bottom, #ffffff, #6710a5); Замените #ffffff и #000000 на нужные вам цвета */
+    background: rgb(255, 255, 255) !important;
+}
+
+p {
+  font-family: 'Cherry Bomb One', cursive;
+  color: transparent !important;    
+	-webkit-background-clip: text !important;
+	background-clip: text !important;
+	background-image: linear-gradient(to bottom,#ffffff, #6710a5) !important;
+}
+.scroll-container .scroll-page .container-lg .sha p:hover {
+  font-family: 'Cherry Bomb One', cursive;
+  color: transparent !important;    
+	-webkit-background-clip: text !important;
+	background-clip: text !important;
+	background-image: linear-gradient(to bottom,#2d1b59, #422953) !important;
+}
+
+a {
+    text-decoration-line: none !important;
+    text-decoration: none !important;
+    text-decoration-color: none !important;
+  }
+  nav,
+  .scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav {
+    width: 339px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  .scroll-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  .scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+.name {
+    color: white;
+    margin-top: 10px;
+}
+
+.dev {
+    width: 100px;
+}
+
+.carousel-inner {
+    overflow: hidden;
+    }
+    
+    .carousel-item:not(.active) {
+    transform: translateX(100%);
+    }
+    
+    .carousel-item.active {
+    transform: translateX(0%);
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+    transition: opacity 1s ease;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+    opacity: 0;
+    transition: opacity 1s ease;
+    }
+    
+    .carousel-control-prev:hover .carousel-control-prev-icon,
+    .carousel-control-next:hover .carousel-control-next-icon {
+    opacity: 1;
+    }
+    
+    .carousel-control-prev:focus,
+    .carousel-control-next:focus {
+    outline: none;
+    }
+    
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+    opacity: 0.5;
+    }
+    
+    .carousel-control-prev {
+    left: 0;
+    }
+    
+    .carousel-control-next {
+    right: 0;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+    background-image: url("s");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    }
+
+@media (max-width: 630px) {
+    p {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 318px) {
+    p {
+        font-size: 35px;
+    }
+}
